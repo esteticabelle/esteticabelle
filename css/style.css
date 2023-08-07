@@ -7920,7 +7920,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.3s ease; }
   @media (max-width: 767.98px) {
     .staff {
-      margin-bottom: 30px; } }
+      margin-bottom: 3%; } }
   .staff .info {
     width: 100%; }
     .staff .info h3 {
@@ -8771,6 +8771,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+@media (max-width: 767.98px) {
+    .row {
+      margin-bottom: 6%;} }
+    
+@media (max-width: 767.98px) {
+    .card-services {
+      margin-bottom: 3% !important;} }
 
 
 .Presentation::before{
@@ -8882,3 +8889,5 @@ nav ul li a:hover{
 .Presentation-spa{
   padding: 4%;
 }
+
+
